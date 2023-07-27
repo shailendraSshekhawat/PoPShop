@@ -1,4 +1,10 @@
 {
-  "editor.fontSize": 14,
-  "editor.mouseWheelZoom": true
+  "editor.fontSize": 16,
+  "editor.mouseWheelZoom": true,
+  "editor.fontFamily": "'MonoLisa'",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.iconTheme": "material-icon-theme",
+  "window.autoDetectColorScheme": false,
+  "explorer.enableDragAndDrop": true,
+  "window.zoomLevel": 0
 }
