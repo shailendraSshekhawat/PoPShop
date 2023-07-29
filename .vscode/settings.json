@@ -2,7 +2,7 @@
   "editor.fontSize": 16,
   "editor.mouseWheelZoom": true,
   "editor.fontFamily": "'MonoLisa'",
-  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.colorTheme": "GitHub Light",
   "workbench.iconTheme": "material-icon-theme",
   "window.autoDetectColorScheme": false,
   "explorer.enableDragAndDrop": true,

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
-import { Form, Button, Row, Col } from 'react-bootstrap';
+import { Form, Button } from 'react-bootstrap';
 import Message from '../../components/Message';
 import Loader from '../../components/Loader';
 import { toast } from 'react-toastify';
@@ -19,7 +19,7 @@ const ProductEditScreen = () => {
   const [category, setCategory] = useState('');
   const [countInStock, setCountInStock] = useState(0);
   const [description, setDescription] = useState('');
-  const [uploading, setUploading] = useState(false);
+  // const [uploading, setUploading] = useState(false);
 
   const {
     data: product,
@@ -30,6 +30,7 @@ const ProductEditScreen = () => {
 
   const [updateProduct, { isLoading: loadingUpdate }] =
     useUpdateProdctMutation();
+  // eslint-disable-next-line no-unused-vars
   const [uploadProductImage, { isLoading: loadingUploadImage }] =
     useUploadProductImageMutation();
 

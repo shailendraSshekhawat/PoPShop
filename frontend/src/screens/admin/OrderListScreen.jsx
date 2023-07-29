@@ -1,7 +1,5 @@
 import { LinkContainer } from 'react-router-bootstrap';
 import { Table, Button } from 'react-bootstrap';
-import { useDispatch, useSelector } from 'react-redux';
-import { useEffect } from 'react';
 import Message from '../../components/Message';
 import Loader from '../../components/Loader';
 import { useGetOrdersQuery } from '../../slices/ordersApiSlice';
